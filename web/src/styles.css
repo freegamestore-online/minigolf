@@ -1,5 +1,6 @@
 :root {
   --bg: #172522;
+  /* platform tokens available from FreeGameStore: --ink: inherit; --accent: inherit; */
   color: var(--ink, #eef5e7);
   color-scheme: dark;
   background: var(--bg);
