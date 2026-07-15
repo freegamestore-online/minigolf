@@ -422,6 +422,9 @@ function Menu(props: {
           <button type="button" onClick={props.onDaily}>Daily Challenge</button>
           <button type="button" onClick={props.onHoles}>View Holes</button>
         </div>
+        <a className="store-link" href="https://freegamestore.online" target="_blank" rel="noreferrer">
+          Built for freegamestore.online
+        </a>
         <Leaderboard rows={props.leaderboard} />
       </div>
     </div>
