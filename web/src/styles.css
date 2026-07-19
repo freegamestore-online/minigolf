@@ -378,19 +378,18 @@ h2 {
   }
 
   .app-shell {
-    min-height: 100svh;
-    height: auto;
+    height: 100svh;
     padding: 10px;
   }
 
   .game-stage {
-    width: 100%;
-    min-height: 100svh;
-    aspect-ratio: auto;
+    width: min(calc(100svw - 20px), calc((100svh - 20px) * 1.5));
+    aspect-ratio: 3 / 2;
+    max-height: calc(100svh - 20px);
   }
 
   .game-canvas {
-    height: min(70svh, 620px);
+    height: 100%;
   }
 
   .hud {
